@@ -1,0 +1,3 @@
+[submodule "lip"]
+	path = lip
+	url = https://github.com/informatica-unica/lip
