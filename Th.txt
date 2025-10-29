@@ -1,0 +1,11 @@
+--> small step sem
+==> BIG STEP SEM
+
+st [x |>- v] per lo stato x vale v
+
+
+st [(x, 1); (y, 2)]
+x := x+1
+st' = [(x, 2); (y, 2)]
+
+
