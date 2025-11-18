@@ -1,3 +1,6 @@
 [submodule "lip"]
 	path = lip
 	url = https://github.com/informatica-unica/lip
+[submodule "lip-unica"]
+	path = lip-unica
+	url = https://github.com/mikitro04/lip-unica
