@@ -1,0 +1,49 @@
+1)
+ S => AS => aAbS => aaAbbS => aaaAbbbS => aaabbbS => aaabbbAS  => aaabbbaAbS => aaabbbabS => aaabbbabAS => aaabbbabaAbS =>   aaabbbababS => aaabbbababAS=>
+ aaabbbababaAbS => aaabbbabababS => aaabbbabababa
+
+2) 
+ d
+
+3)
+ b
+
+4)
+
+ S-> aBccc
+ B-> aBc | C
+ C->bbbb | bbbbbbCccc
+
+5)
+ b
+ c
+ d
+
+6)
+ a
+ b
+ d
+
+7)
+ 20
+
+8)
+ 2
+
+9)
+ 3
+
+10) 
+ 3
+
+11)
+ 26
+ 
+12) 
+ 18
+
+13)
+ 26
+
+14)
+ Nessun tipo

@@ -7,18 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getX",
 				"outputs": [
 					{
@@ -27,36 +15,18 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "_n",
+						"name": "n",
 						"type": "int256"
 					}
 				],
 				"name": "setX",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "a",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amt",
-						"type": "uint256"
-					}
-				],
-				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -75,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"LIP.sol": "LIP"
+			"LIP.sol": "Oracle"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,11 +60,11 @@
 	},
 	"sources": {
 		"LIP.sol": {
-			"keccak256": "0x5b6ea6f853d31b5880ac8db7e7fba92c50d708972df5e075d48b9ae09e07484d",
+			"keccak256": "0x93ee02c952caf3768b7e1977cd9da9907d8c51de04ed5673a98aa657cca6d160",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb304fb1da223bdbc17f2137285145dabef32898dfbbc88a295d7287e40fdb12",
-				"dweb:/ipfs/QmPqVYCYTpwzNzmWNTrAk41RnTLAxm3JMWboE5QGfJrJK6"
+				"bzz-raw://7308645ba445bbc3f931e5bd98a341ad2fc9137331ca18f1661a9585fc9edd98",
+				"dweb:/ipfs/QmNw4dXnvqMLpMM8EFhjYRfVAzbRe1c6fAp2LRoLBwZ56W"
 			]
 		}
 	},

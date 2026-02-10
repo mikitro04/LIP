@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "o",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amt",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"LIP.sol": "LIP"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"LIP.sol": {
+			"keccak256": "0x93ee02c952caf3768b7e1977cd9da9907d8c51de04ed5673a98aa657cca6d160",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7308645ba445bbc3f931e5bd98a341ad2fc9137331ca18f1661a9585fc9edd98",
+				"dweb:/ipfs/QmNw4dXnvqMLpMM8EFhjYRfVAzbRe1c6fAp2LRoLBwZ56W"
+			]
+		}
+	},
+	"version": 1
+}

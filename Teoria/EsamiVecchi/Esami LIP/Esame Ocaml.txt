@@ -1,0 +1,88 @@
+1. Scrivere una funzione foo con il seguente tipo:
+
+foo: ’a -> (’a -> ’b) -> ’b
+let foo a fab = fab a;;
+
+foo: ’a -> (’a -> ’b) -> ’b -> ’a
+let foo a f b = if(f a = b )then a else a;;
+
+foo: (’a -> ’b) -> ’a -> ’b
+let foo f a = f a;;
+
+foo: (’a -> int) -> ’a -> int -> ’a
+let foo f a i = if f a + i = 3 then a else a;;
+
+foo: ’a -> (int -> int) -> ’a -> int
+let foo x1 f x2 = if (x1 = x2) then f 1 else if (f 2 <> 0) then 0 else 1;;
+
+foo: ’a -> int -> int -> ’a
+let foo x y z = if(z + y==2) then x  else x;;
+
+f: 'a * 'b -> 'a -> 'b
+let f (x,y) z = if x = z then y else y;;
+
+f : (int -> 'a) -> 'a
+let f g = g 1;;
+
+foo: int -> ’a -> ’a -> int
+let foo x y z = if ( y = z ) then ( x + 1 ) else ( x + 1 );;
+
+foo: (int -> 'a) -> 'a
+let foo f = f 1;;
+
+foo: (int -> 'a) -> 'a -> int
+let foo f a = if f 2 = a then 1 else 2;;
+
+let f a b = if (a=b) then 1 else a 1 ;;
+val f : (int -> int) -> (int -> int) -> int 
+
+let f a  = a 1 1 ;;
+val f : (int -> int -> 'a) -> 'a
+
+let f a b c d = a+b ;;
+val f : int -> int -> 'a -> 'b -> int
+
+f: ('a -> 'b) -> ('b -> 'c) -> 'a -> 'c
+let f g h x = h ( g x);;
+
+f: ('a -> 'a) -> ('a -> 'a) -> 'a -> 'a * 'a
+let f g h x = h (g x), g (h x);;
+
+f: ('a -> 'b -> 'c) -> 'a -> 'b -> 'c
+let f g x y = g x y ;;
+
+f: ('a -> 'b -> 'c) * 'a * 'b -> 'c
+let f (x,y,z) = x y z;;
+
+let f a b c d = a b ;;
+val f : ('a -> 'b) -> 'a -> 'c -> 'd -> 'b
+
+let f a b c d e = a b c ;;
+val f : ('a -> 'b -> 'c) -> 'a -> 'b -> 'd -> 'e -> 'c
+
+let f a b c = if (a=b) then a else c 1 ;; o 
+let f a b c = if (a=b) then b else c 1 ;; o
+let f a b c = if (b=a) then b else c 1 ;;
+val f : 'a -> 'a -> (int -> 'a) -> 'a
+
+foo: ’a -> ’a -> int -> int
+let foo a b c = if(a = b) then c+1 else c+1;
+
+foo: ’a -> ’a -> (int -> int) -> int
+let foo a aa b = if (a=aa) then b 1+1 else b 2
+
+foo: ’a -> ’b -> (’a -> int) -> int
+let foo a b c = c a+1
+
+foo: (int -> ’a) -> ’b -> ’a
+let f a b = a 1
+
+foo: (int -> ’a) -> int -> ’a
+let f a 1 = a 1
+
+foo: ’a -> (’a -> ’b) -> ’a -> int
+
+
+foo: ’a -> ’a -> (int -> ’b) -> ’b
+
+
