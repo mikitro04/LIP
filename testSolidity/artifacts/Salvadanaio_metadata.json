@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "mittente",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "quantita",
+						"type": "uint256"
+					}
+				],
+				"name": "FondiRicevuti",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tmp.sol": "Salvadanaio"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tmp.sol": {
+			"keccak256": "0x5e0f0eae5e85b934de135edba63b0ad1a19b4f6a5bcd4ab149cc3cea35395e7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83e6637e42679af8a0234b0e5f8ee0707db03a975d4b6e5e9253bcdbd2ca2145",
+				"dweb:/ipfs/QmW8LjK2iGZ3f1WSJZU1Qj45xKveR4Xji2DbfASmpMmX2u"
+			]
+		}
+	},
+	"version": 1
+}
